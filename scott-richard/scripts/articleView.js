@@ -39,6 +39,7 @@ articleView.handleAuthorFilter = function() {
       $('article').show();
     }
     $('#category-filter').val('');
+    $('.template').hide();
   });
 };
 
@@ -57,7 +58,8 @@ articleView.handleCategoryFilter = function() {
       $('.template').hide();
       $('article').show();
     }
-    $('author-filter').val('');
+    $('#author-filter').val('');
+    $('.template').hide();
   });
 };
 
